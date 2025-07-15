@@ -1,0 +1,174 @@
+/* Fuente general y reset básico */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal del formulario */
+.container {
+    background: #ffffff;
+    padding: 30px 25px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Títulos principales */
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Etiquetas para campos */
+label {
+    display: block;
+    margin: 8px 0 5px;
+    font-weight: 500;
+    text-align: left;
+    color: #444;
+}
+
+/* Campos de entrada */
+input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: #5c6bc0;
+    box-shadow: 0 0 8px rgba(92, 107, 192, 0.5);
+}
+
+/* Botón principal */
+button {
+    background-color: #82a2d0;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6e8dbd;
+}
+
+/* Sección de alternancia entre login y registro */
+.toggle-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.toggle-text a {
+    color: #5c6bc0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.toggle-text a:hover {
+    text-decoration: underline;
+}
+
+/* Mensajes de error */
+.error-message {
+    color: #e53935;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Animación suave */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    /* Estilo personalizado para la tabla de usuarios */
+.styled-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.styled-table thead {
+    background-color: #5c6bc0;
+    color: white;
+    text-align: center;
+}
+
+.styled-table thead th {
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.styled-table tbody td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    color: #333;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f1f5ff;
+}
+
+.styled-table thead tr:first-child th:first-child {
+    border-top-left-radius: 12px;
+}
+
+.styled-table thead tr:first-child th:last-child {
+    border-top-right-radius: 12px;
+}
+
+.styled-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 12px;
+}
+
+.styled-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 12px;
+}
+
+.avatar-preview {
+    display: block;
+    margin-top: 200px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+}
